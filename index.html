@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Sakakibara</title>
+</head>
+<body class="bg-white">
+    <header class="navbar">
+        <div class="logo">
+            <img src="/images/smalllogowhite.avif" alt="Sakakibara" class="logo h-12">
+        </div>
+        <button class="hamburger" onclick="toggleMenu()">
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+          </button>
+          <div class="menu menu-items">
+            <a href="#" class="menu-item">KAI</a>
+            <a href="#" class="menu-item">SAYA</a>
+            <a href="https://sakakibarabmx.com/collections/all" target="popup" class="menu-item">SHOP</a>
+            <a href="#footer" class="menu-item">CONTACT</a>
+          </div>
+        <div class="menu-toggle-container">
+            <nav class="menu">
+            <a href="#">KAI</a>
+            <a href="#">SAYA</a>
+            <a href="https://sakakibarabmx.com/collections/all" target="popup">SHOP</a>
+            <a href="#footer">CONTACT</a>
+            </nav>
+        </div>
+    </header>
+
+<section class="showcase">
+    <div class="main-tile">
+        <div class="showcase-text">
+            <div class="sub-heading">
+                ATHLETES/SPEAKERS/INSPIRATION
+            </div>
+            <div class="heading">
+                KAI & SAYA<br>SAKAKIBARA
+            </div>
+        </div>
+    </div>
+ </section>
+
+    <section class="saya-showcase">
+        <div class="saya-container">
+        <div class="saya-img">
+            <img src="/images/GettyImages-1323804967-removebg.png" alt="">
+        </div>
+        <img src="/images/olympics.png" class="h-6 absolute top-10 left-10 olympics">
+        <div class="saya-text">
+            <div class="saya-heading">SAYA SAKAKIBARA</div>
+            <div class="saya-sub-heading">-- Olympic BMX Racer --</div>
+            <div class="saya-paragraph">
+                Saya is a well respected BMX athlete and is
+                the leading female racer on track to competing
+                at her 2nd Olympic Games in Paris 2024 
+            </div>
+            <div class="saya-button">
+                <button>Learn More</button>
+            </div>
+        </div>
+        </div>  
+        <div class="spacer"></div>
+        <p class="quote">"You never regret giving 100%"</p>
+        <div class="saya-mobile-button">
+            <button>Learn More</button>
+        </div>
+    </section>
+
+    <section class="kai-showcase">
+        <div class="saya-container">
+        <div class="saya-text">
+            <div class="saya-heading">KAI SAKAKIBARA</div>
+            <div class="saya-sub-heading">Traumatic Brain Injury Survivor
+                & Para Rower</div>
+            <div class="saya-paragraph">
+                Kai has the will to improve and drive like no other.
+He continues to show incredible perseverance
+after his accident and now inspiring many
+with his speaking. 
+            </div>
+            <div class="kai-button">
+                <button>Learn More</button>
+            </div>
+        </div>
+        <div class="kai-img">
+            <img src="/images/kaistepone.png" alt="">
+        </div>
+        </div>  
+        <div class="kai-spacer"></div>
+        <p class="quote">"Race as though you train, train as though you race"</p>
+        <div class="kai-mobile-button">
+            <button>Learn More</button>
+        </div>
+    </section>
+
+    <section class="merch">
+        <div class="merch-heading">
+            OUR MERCH
+        </div>
+        <div class="merch-images">
+            <div class="card">
+            <img src="/images/merch1.webp" alt="">
+            </div>
+            <div class="card">
+            <img src="/images/merch2.webp" alt="">
+            </div>
+            <div class="card">
+            <img src="/images/merch3.jpg" alt="">
+            </div>
+        </div>
+        <div class="merch-button">
+            <a href="https://sakakibarabmx.com/collections/all" target="popup"><button>Shop Now</button></a>
+        </div>
+    </section>
+
+    <section class="contact">
+        <div class="form-container">
+            <div class="grey-card">
+                <div class="form-heading">SEND US A MESSAGE</div>
+                <form id="contact-form" name="Contact" method="POST" netlify-honeypot="bot-field" data-netlify="true" onsubmit="submitForm(event)" >
+                    <input type="hidden" name="form-name" value="Contact">
+                         <p class="hidden">
+                        <label>Don’t fill this out if you’re human: <input name="bot-field" /></label>
+                        </p>
+                    <div class="form-group">
+                      <input placeholder="Name" type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                      <input type="email" id="email" name="email" placeholder="Email Address" required>
+                    </div>
+                    <div class="form-group">
+                      <input type="tel" id="phone" name="phone" placeholder="Phone Number" required>
+                    </div>
+                    <div class="form-group">
+                      <textarea id="message" name="message" placeholder="Write your message here..."></textarea>
+                    </div>
+                    <div class="submit">
+                      <input type="submit" value="SEND">
+                    </div>
+                  </form>  
+                </div>
+                <div class="black-card">
+                    <div class="info-heading">
+                        CONTACT INFO
+                    </div>
+                    <div class="info-email">
+                        <a href="mailto:info@sakakibarabmx.com.au">
+                        info@sakakibarabmx.com.au</a>
+                    </div>
+                    <div class="info-container">
+                        <div class="saya-card">
+                            <div class="circle-img">
+                            <img src="/images/sayacircle.png" alt="">
+                            </div>
+                              
+                            <p class="name">Saya</p>
+                            <div class="socials">
+                                <a href="https://www.facebook.com/sayasakakibarabmx" target="popup"><i class="fa-brands fa-facebook"></i></a>
+                                <a href="https://www.instagram.com/sayasakakibara/" target="popup"><i class="fa-brands fa-instagram"></i></a>
+                            </div>
+                        </div>
+                        <div class="kai-card">
+                            <div class="circle-img">
+                            <img src="/images/kaicircle.png" alt="">
+                            </div>
+                              
+                            <p class="name">Kai</p>
+                            <div class="socials">
+                                <a href="https://www.facebook.com/kaisakakibarabmx" target="popup"><i class="fa-brands fa-facebook"></i></a>
+                                <a href="https://www.instagram.com/sakakibarakai/" target="popup"><i class="fa-brands fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </section>
+    <section class="footer" id="footer">
+        <div class="copyright">
+            © SK Sakakibara 2023 | All Rights Reserved
+        </div>
+        <div class="jnds">
+            Website by | <a href="https://jndswebdesign.com">JNDS Web Design</a> 
+        </div>
+    </section>
+</body>
+    <script src="/script.js"></script>
+    <script>
+    function toggleMenu() {
+      const menuItems = document.querySelector('.menu-items');
+      menuItems.classList.toggle('show');
+    }
+    </script>
+</html>
