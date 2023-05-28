@@ -741,6 +741,12 @@ video {
   }
 }
 
+.menu-item img {
+  height: 20px;
+  border-radius: 2px;
+  margin-top: 5px;
+}
+
 /* Menu Hover Effects */
 
 .menu-items a {
@@ -817,7 +823,7 @@ video {
   position: absolute;
   bottom: 25%;
   left: 7%;
-  text-shadow: 4px 4px 15px #000;
+  text-shadow: 2px 2px 40px #000;
 }
 
 .heading {
@@ -848,8 +854,8 @@ video {
   padding: 60px 120px;
   background: linear-gradient(
       to right,
-      rgba(44, 44, 44, 0.85),
-      rgba(0, 0, 0, 0.95)
+      rgba(44, 44, 44, 0.8),
+      rgba(44, 44, 44, 0.8)
     ),
     url('/images/saya2.jpg');
   background-size: cover;
@@ -947,8 +953,8 @@ video {
   height: 100%;
   background: linear-gradient(
       to left,
-      rgba(44, 44, 44, 0.7),
-      rgba(0, 0, 0, 0.8)
+      rgba(44, 44, 44, 0.75),
+      rgba(44, 44, 44, 0.75)
     ),
     url('/images/kaibg.JPG');
   color: #fff;
@@ -956,6 +962,14 @@ video {
   padding: 60px 120px;
   background-size: cover;
   background-position: center;
+}
+
+.kai-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  text-align: center;
 }
 
 .kai-img img {
@@ -994,6 +1008,34 @@ video {
   content: '';
   width: 90%;
   margin: 0 auto;
+}
+
+.jpn-flag img,
+.eng-flag img {
+  pointer-events: none;
+}
+
+.jpn-flag2 img,
+.eng-flag2 img {
+  pointer-events: none;
+}
+
+/* Language */
+
+.jpn {
+  display: none;
+}
+
+.eng {
+  display: none;
+}
+
+.jpn.active {
+  display: block;
+}
+
+.eng.active {
+  display: block;
 }
 
 /* Merch */
