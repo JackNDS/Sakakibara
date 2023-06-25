@@ -818,6 +818,25 @@ video {
   color: #fff;
 }
 
+.main-tile2 {
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url('/images/sayapapendal.webp');
+  -o-object-fit: contain;
+     object-fit: contain;
+  background-position: bottom;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 0px 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 11;
+  color: #fff;
+}
+
 .showcase-text {
   margin-left: 40px;
   position: absolute;
@@ -852,6 +871,22 @@ video {
   color: #fff;
   position: relative;
   padding: 60px 120px;
+  background: linear-gradient(
+      to right,
+      rgba(44, 44, 44, 0.8),
+      rgba(44, 44, 44, 0.8)
+    ),
+    url('/images/saya2.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.saya-showcase2 {
+  height: 100%;
+  background: var(--secondary);
+  color: #fff;
+  position: relative;
+  padding: 60px;
   background: linear-gradient(
       to right,
       rgba(44, 44, 44, 0.8),
@@ -1221,7 +1256,16 @@ video {
     padding: 40px 60px;
   }
 
+  .fbvideo {
+    height: 200px;
+  }
+
   .main-tile {
+    background-position: top;
+    background-size: cover;
+  }
+
+  .main-tile2 {
     background-position: top;
     background-size: cover;
   }
@@ -1254,6 +1298,12 @@ video {
   }
 
   .saya-showcase {
+    padding: 50px 40px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .saya-showcase2 {
     padding: 50px 40px;
     display: flex;
     flex-direction: column;
@@ -1439,6 +1489,10 @@ video {
   }
 
   .saya-showcase {
+    padding: 40px 80px;
+  }
+
+  .saya-showcase2 {
     padding: 40px 80px;
   }
 
