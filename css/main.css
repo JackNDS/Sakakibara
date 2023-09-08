@@ -845,6 +845,13 @@ video {
   text-shadow: 2px 2px 40px #000;
 }
 
+.showcase-text2 {
+  position: absolute;
+  bottom: 45%;
+  left: 5%;
+  text-shadow: 2px 2px 40px #000;
+}
+
 .heading {
   font-family: 'matter-semibold';
   font-size: 65px;
@@ -1289,6 +1296,12 @@ video {
     left: 7%;
   }
 
+  .showcase-text2 {
+    bottom: 50%;
+    left: 5%;
+    width: 60%;
+  }
+
   .heading {
     font-size: 45px;
   }
@@ -1478,6 +1491,12 @@ video {
     margin-left: 30px;
     bottom: 20%;
     left: 7%;
+  }
+
+  .showcase-text2 {
+    bottom: 30%;
+    text-align: center;
+    left: 0;
   }
 
   .heading {
