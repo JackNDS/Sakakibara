@@ -290,6 +290,16 @@
   text-shadow: 2px 2px 40px #000;
 }
 
+.rank img {
+  width: 300px;
+  object-fit: cover;
+}
+
+.rank {
+  margin-top: 30px;
+  margin-bottom: -100px;
+}
+
 .heading {
   font-family: 'matter-semibold';
   font-size: 65px;
