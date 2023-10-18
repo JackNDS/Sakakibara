@@ -312,6 +312,12 @@
   line-height: 1;
   margin-bottom: 10px;
 }
+.sub-heading2 {
+  font-family: 'matter-semibold';
+  font-size: 24px;
+  line-height: 1;
+  margin-top: 25px;
+}
 .showcase-image img {
   object-fit: contain;
 }
@@ -347,6 +353,21 @@
     url('/images/saya2.jpg');
   background-size: cover;
   background-position: center;
+}
+.saya-showcase3 {
+  height: 100%;
+  background: var(--secondary);
+  color: #fff;
+  position: relative;
+  padding: 60px;
+  background: linear-gradient(
+      to right,
+      rgba(44, 44, 44, 0.8),
+      rgba(44, 44, 44, 0.8)
+    ),
+    url('/images/sayapapendal.webp');
+  background-size: cover;
+  background-position: bottom;
 }
 
 .saya-container {
