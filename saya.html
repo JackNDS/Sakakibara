@@ -1,216 +1,336 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/main.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>Saya Sakakibara</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Saya Sakakibara</title>
 </head>
+
 <body class="bg-white">
-    <div id="fb-root"></div>
-<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v17.0" nonce="kjaass1c"></script>
-    <header class="navbar">
-        <div class="logo">
-            <img src="/images/smalllogowhite.avif" alt="Sakakibara" class="logo h-12">
-        </div>
-        <button class="hamburger" onclick="toggleMenu()">
-            <span class="hamburger-line"></span>
-            <span class="hamburger-line"></span>
-            <span class="hamburger-line"></span>
-          </button>
-          <div class="menu menu-items">
-            <a href="#" class="menu-item"><span class="eng">KAI</span><span class="jpn">甲斐</span></a>
-            <a href="#" class="menu-item"><span class="eng">SAYA</span><span class="jpn">サヤ</span></a>
-            <a href="https://sakakibarabmx.com/collections/all" target="popup" class="menu-item"><span class="eng">SHOP</span><span class="jpn">店</span></a>
-            <a href="#footer" ><span id="contact-link" class="eng">CONTACT</span><span class="jpn">コンタクト</span></a>
-            <a href="#" class="menu-item eng-flag2" ><img src="/images/eng.webp" alt=""></a>
-            <a href="#" class="menu-item jpn-flag2"><img src="/images/jpn.jpeg" alt=""></a>
-          </div>
-        <div class="menu-toggle-container">
-            <nav class="menu">
-            <a href="#"><span class="eng">KAI</span><span class="jpn">甲斐</span></a>
-            <a href="#"><span class="eng">SAYA</span><span class="jpn">サヤ</span></a>
-            <a href="https://sakakibarabmx.com/collections/all" target="popup"><span class="eng">SHOP</span><span class="jpn">店</span></a>
-            <a href="#footer"><span class="eng">CONTACT</span><span class="jpn">コンタクト</span></a>
-            <a href="#" class="menu-item eng-flag"><img src="/images/eng.webp" alt=""></a>
-            <a href="#" class="menu-item jpn-flag"><img src="/images/jpn.jpeg" alt=""></a>
-            </nav>
-        </div>
-    </header>
-
-<section class="showcase">
-    <div class="main-tile2">
-        <div class="showcase-text2">
-           <!-- <div class="sub-heading">
-                <a href="#video"><span class="eng">WATCH PAPENDAL WORLD CUP WIN</span><span class="jpn">パペンダルワールドカップの勝利を観戦</span></a>
-            </div>--> 
-            <div class="heading">
-                <span class="eng">SAYA SAKAKIBARA</span>
-                <span class="jpn">榊原沙耶</span>
-            </div>
-            <div class="sub-heading2">
-                BMX Women Elite World Cup Champion
-            </div>
-            <div class="rank">
-              <!--  <img src="/images/rank.png" alt=""> -->
-            </div>
-        </div>
+  <div id="fb-root"></div>
+  <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v17.0"
+    nonce="kjaass1c"></script>
+  <header class="navbar">
+    <div class="logo">
+      <a href="index"> <img src="/images/smalllogowhite.avif" alt="Sakakibara" class="logo h-12"></a>
     </div>
- </section>
+    <button class="hamburger" onclick="toggleMenu()">
+      <span class="hamburger-line"></span>
+      <span class="hamburger-line"></span>
+      <span class="hamburger-line"></span>
+    </button>
+    <div class="menu menu-items">
+      <a href="#" class="menu-item"><span class="eng">KAI</span><span class="jpn">甲斐</span></a>
+      <a href="#" class="menu-item"><span class="eng">SAYA</span><span class="jpn">サヤ</span></a>
+      <a href="https://sakakibarabmx.com/collections/all" target="popup" class="menu-item"><span
+          class="eng">SHOP</span><span class="jpn">店</span></a>
+      <a href="#footer"><span id="contact-link" class="eng">CONTACT</span><span class="jpn">コンタクト</span></a>
+      <a href="#" class="menu-item eng-flag2"><img src="/images/eng.webp" alt=""></a>
+      <a href="#" class="menu-item jpn-flag2"><img src="/images/jpn.jpeg" alt=""></a>
+    </div>
+    <div class="menu-toggle-container">
+      <nav class="menu">
+        <a href="#"><span class="eng">KAI</span><span class="jpn">甲斐</span></a>
+        <a href="#"><span class="eng">SAYA</span><span class="jpn">サヤ</span></a>
+        <a href="https://sakakibarabmx.com/collections/all" target="popup"><span class="eng">SHOP</span><span
+            class="jpn">店</span></a>
+        <a href="#footer"><span class="eng">CONTACT</span><span class="jpn">コンタクト</span></a>
+        <a href="#" class="menu-item eng-flag"><img src="/images/eng.webp" alt=""></a>
+        <a href="#" class="menu-item jpn-flag"><img src="/images/jpn.jpeg" alt=""></a>
+      </nav>
+    </div>
+  </header>
 
- 
-   
-    <section class="saya-showcase2">
-        <div class="saya-container">
-            <div class="fb-video" data-href="https://www.facebook.com/ucibmxracing/videos/326570376726811/" data-width="500" data-show-text="false"><blockquote cite="https://www.facebook.com/ucibmxracing/videos/326570376726811/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/ucibmxracing/videos/326570376726811/"></a>a
+  <section class="showcase">
+    <div class="follow-section">
+      <div class="follow-container">
+        <div class="follow-text">Stay up to date here:</div>
+        <div class="socials-container">
+          <a href="https://www.instagram.com/sayasakakibara/" target="popup">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+          <a href="https://www.youtube.com/@sayabmx" target="popup">
+            <i class="fa-brands fa-youtube"></i>
+          </a>
+
         </div>
-        <div class="saya-text">
-            <div class="saya-heading"><span class="eng">BMX WORLD CUP 2023 - Santiago del Estero</span><span class="jpn">UCI BMX ワールドカップ 2023</span></div>
-            <div class="saya-sub-heading"><span class="eng">Round 10 - 1st Place</span><span class="jpn">1位 - パペンダル</span></div>
+      </div>
+    </div>
+    <div class="main-tile2">
+      <div class="showcase-text2">
+        <!-- <div class="sub-heading">
+                <a href="#video"><span class="eng">WATCH PAPENDAL WORLD CUP WIN</span><span class="jpn">パペンダルワールドカップの勝利を観戦</span></a>
+            </div>-->
+        <div class="heading">
+          <span class="eng">SAYA SAKAKIBARA</span>
+          <span class="jpn">榊原沙耶</span>
         </div>
-        </div>  
-    </section>
-
-    <section class="saya-showcase2">
-        <div class="saya-container">
-            <div class="saya-text">
-                <div class="saya-heading"><span class="eng">BMX WORLD CUP 2023 - Santiago del Estero</span><span class="jpn">UCI BMX ワールドカップ 2023</span></div>
-                <div class="saya-sub-heading"><span class="eng">Round 9 - 1st Place</span><span class="jpn">1位 - パペンダル</span></div>
-            </div>
-            <div class="fb-video" data-href="https://www.facebook.com/ucibmxracing/videos/861528055193845/" data-width="500" data-show-text="false"><blockquote cite="https://www.facebook.com/ucibmxracing/videos/861528055193845/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/ucibmxracing/videos/861528055193845/">Santiago del Estero Round 9 - Women Elite Final</a><p>Saya Sakakibara 🇦🇺 takes Round 9️⃣ in Argentina 🔥
-                Back-to-back wins and a commanding lead in the overall Women Elite rankings 👏
-                #BMXRacingWC</p>Posted by <a href="https://www.facebook.com/ucibmxracing">UCI BMX Racing</a> on Saturday, 14 October 2023</blockquote></div>
-        
-        </div>  
-    </section>
-
-    <section class="saya-showcase2">
-        <div class="saya-container">
-            <div class="fb-video" data-href="https://www.facebook.com/ucibmxracing/videos/871141674370902" data-width="500" data-show-text="false"><blockquote cite="https://www.facebook.com/ucibmxracing/videos/871141674370902" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/ucibmxracing/videos/871141674370902"></a>a
+        <div class="sub-heading2">
+          BMX Women Elite World Cup Champion
         </div>
-        <div class="saya-text">
-            <div class="saya-heading"><span class="eng">BMX WORLD CUP 2023 - Sarrians</span><span class="jpn">UCI BMX ワールドカップ 2023</span></div>
-            <div class="saya-sub-heading"><span class="eng">Round 6 - 1st Place</span><span class="jpn">1位 - パペンダル</span></div>
+        <div class="rank">
+          <!--  <img src="/images/rank.png" alt=""> -->
         </div>
-        </div>  
-    </section>
+      </div>
+    </div>
+  </section>
 
-    <section class="saya-showcase3">
-        <div class="saya-container">
-            <div class="saya-text">
-                <div class="saya-heading"><span class="eng">BMX WORLD CUP 2023 - Papendal</span><span class="jpn">UCI BMX ワールドカップ 2023</span></div>
-                <div class="saya-sub-heading"><span class="eng">Round 3 - 1st Place</span><span class="jpn">1位 - パペンダル</span></div>
-            </div>
-            <div class="fb-video" data-href="https://www.facebook.com/ucibmxracing/videos/551251630537751/" data-width="500" data-show-text="false"><blockquote cite="https://www.facebook.com/ucibmxracing/videos/551251630537751/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/ucibmxracing/videos/551251630537751/">Papendal Round 3 - Women Elite Final</a><p>Saya Sakakibara is crowned champ in Papendal 🇦🇺
+  <section class="timeline-section">
+    <div class="timeline">
+      <div class="timeline-item">
+        <div class="content">
+          <h2>7 x World Cup Winner</h2>
+          <img src="/images/podiums.jpeg" alt="">
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="content2">
+          <img src="/images/world cup winner.jpeg" alt="">
+          <h2>15 x World Cup Podiums</h2>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="content">
+          <h2>3 x Australian Elite<br>National Champion</h2>
+          <img src="/images/auschamp.jpg" alt="">
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="content2">
+          <img src="/images/oceaniawin.jpeg" alt="">
+          <h2>2 x Elite Oceania Champion</h2>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="content">
+          <h2>Key Achievements</h2>
+          <div class="achievements">
+            <p>2018<br>First world cup win<br>
+              World Cup overall 2nd place</p>
+            <p>2019<br>Elite Oceania Champion</p>
+            <p>2021<br>Tokyo Olympian<br>
+              Australian National Champion</p>
+            <p>2022<br>Australian National Champion<br></p>
+            <p>2023<br>World Cup Champion<br>Australian National Champion</p>
+          </div>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="content2">
+          <h2>Partners</h2>
+          <p>Red Bull</p>
+          <p>Oakley</p>
+          <p>Sqorz</p>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="content">
+          <h2>Gear Partners</h2>
+          <p>6D</p>
+          <p>Fist</p>
+          <p>Shimano</p>
+          <p>Ace</p>
+          <p>Onyx</p>
+          <p>Mac Components</p>
+          <p>Michram</p>
+          <p>Tioga</p>
+        </div>
+      </div>
+      <!-- More timeline items go here -->
+    </div>
+  </section>
 
-                The Aussie takes her first win of the season 👏🏼
-                
-                #BMXRacingWC</p>Posted by <a href="https://www.facebook.com/ucibmxracing">UCI BMX Racing</a> on Saturday, 24 June 2023</blockquote></div>
-        
-        </div>  
-    </section>
+  <section class="saya-showcase2">
+    <div class="saya-container">
+      <div class="fb-video" data-href="https://www.facebook.com/ucibmxracing/videos/326570376726811/" data-width="500"
+        data-show-text="false">
+        <blockquote cite="https://www.facebook.com/ucibmxracing/videos/326570376726811/" class="fb-xfbml-parse-ignore">
+          <a href="https://www.facebook.com/ucibmxracing/videos/326570376726811/"></a>a
+      </div>
+      <div class="saya-text">
+        <div class="saya-heading"><span class="eng">BMX WORLD CUP 2023 - Santiago del Estero</span><span class="jpn">UCI
+            BMX ワールドカップ 2023</span></div>
+        <div class="saya-sub-heading"><span class="eng">Round 10 - 1st Place</span><span class="jpn">1位 - パペンダル</span>
+        </div>
+      </div>
+    </div>
+  </section>
 
-   <!--<section class="about">
+  <section class="saya-showcase2">
+    <div class="saya-container">
+      <div class="saya-text">
+        <div class="saya-heading"><span class="eng">BMX WORLD CUP 2023 - Santiago del Estero</span><span class="jpn">UCI
+            BMX ワールドカップ 2023</span></div>
+        <div class="saya-sub-heading"><span class="eng">Round 9 - 1st Place</span><span class="jpn">1位 - パペンダル</span>
+        </div>
+      </div>
+      <div class="fb-video" data-href="https://www.facebook.com/ucibmxracing/videos/861528055193845/" data-width="500"
+        data-show-text="false">
+        <blockquote cite="https://www.facebook.com/ucibmxracing/videos/861528055193845/" class="fb-xfbml-parse-ignore">
+          <a href="https://www.facebook.com/ucibmxracing/videos/861528055193845/">Santiago del Estero Round 9 - Women
+            Elite Final</a>
+          <p>Saya Sakakibara 🇦🇺 takes Round 9️⃣ in Argentina 🔥
+            Back-to-back wins and a commanding lead in the overall Women Elite rankings 👏
+            #BMXRacingWC</p>Posted by <a href="https://www.facebook.com/ucibmxracing">UCI BMX Racing</a> on Saturday, 14
+          October 2023
+        </blockquote>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="saya-showcase2">
+    <div class="saya-container">
+      <div class="fb-video" data-href="https://www.facebook.com/ucibmxracing/videos/871141674370902" data-width="500"
+        data-show-text="false">
+        <blockquote cite="https://www.facebook.com/ucibmxracing/videos/871141674370902" class="fb-xfbml-parse-ignore"><a
+            href="https://www.facebook.com/ucibmxracing/videos/871141674370902"></a>a
+      </div>
+      <div class="saya-text">
+        <div class="saya-heading"><span class="eng">BMX WORLD CUP 2023 - Sarrians</span><span class="jpn">UCI BMX
+            ワールドカップ 2023</span></div>
+        <div class="saya-sub-heading"><span class="eng">Round 6 - 1st Place</span><span class="jpn">1位 - パペンダル</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="saya-showcase3">
+    <div class="saya-container">
+      <div class="saya-text">
+        <div class="saya-heading"><span class="eng">BMX WORLD CUP 2023 - Papendal</span><span class="jpn">UCI BMX
+            ワールドカップ 2023</span></div>
+        <div class="saya-sub-heading"><span class="eng">Round 3 - 1st Place</span><span class="jpn">1位 - パペンダル</span>
+        </div>
+      </div>
+      <div class="fb-video" data-href="https://www.facebook.com/ucibmxracing/videos/551251630537751/" data-width="500"
+        data-show-text="false">
+        <blockquote cite="https://www.facebook.com/ucibmxracing/videos/551251630537751/" class="fb-xfbml-parse-ignore">
+          <a href="https://www.facebook.com/ucibmxracing/videos/551251630537751/">Papendal Round 3 - Women Elite
+            Final</a>
+          <p>Saya Sakakibara is crowned champ in Papendal 🇦🇺
+
+            The Aussie takes her first win of the season 👏🏼
+
+            #BMXRacingWC</p>Posted by <a href="https://www.facebook.com/ucibmxracing">UCI BMX Racing</a> on Saturday, 24
+          June 2023
+        </blockquote>
+      </div>
+
+    </div>
+  </section>
+
+  <!--<section class="about">
         <div class="about-heading">
            <span class="eng">ABOUT ME</span> 
            <span class="jpn">私について</span>
         </div>
-    </section> --> 
+    </section> -->
 
-    <section class="merch">
-        <div class="merch-heading">
-           <span class="eng">MERCH</span> 
-           <span class="jpn">私たちの商品</span>
+  <section class="merch">
+    <div class="merch-heading">
+      <span class="eng">MERCH</span>
+      <span class="jpn">私たちの商品</span>
+    </div>
+    <div class="merch-images">
+      <div class="card">
+        <img src="/images/merch1.webp" alt="">
+      </div>
+      <div class="card">
+        <img src="/images/merch2.webp" alt="">
+      </div>
+      <div class="card">
+        <img src="/images/merch3.jpg" alt="">
+      </div>
+    </div>
+    <div class="merch-button">
+      <a href="https://sakakibarabmx.com/collections/all" target="popup"><button><span class="eng">Shop Now</span>
+          <span class="jpn">今すぐショッピングする</span></button></a>
+    </div>
+  </section>
+  <section class="contact">
+    <div class="form-container">
+      <div class="grey-card">
+        <div class="form-heading"><span class="eng">SEND ME A MESSAGE</span><span class="jpn">メッセージをお送りください。</span>
         </div>
-        <div class="merch-images">
-            <div class="card">
-            <img src="/images/merch1.webp" alt="">
+        <form id="contact-form" name="Contact" method="POST" netlify-honeypot="bot-field" data-netlify="true"
+          onsubmit="submitForm(event)">
+          <input type="hidden" name="form-name" value="Contact">
+          <p class="hidden">
+            <label>Don’t fill this out if you’re human: <input name="bot-field" /></label>
+          </p>
+          <div class="form-group">
+            <input placeholder="Name" type="text" id="name" name="name" required>
+          </div>
+          <div class="form-group">
+            <input type="email" id="email" name="email" placeholder="Email Address" required>
+          </div>
+          <div class="form-group">
+            <input type="tel" id="phone" name="phone" placeholder="Phone Number" required>
+          </div>
+          <div class="form-group">
+            <textarea id="message" name="message" placeholder="Write your message here..."></textarea>
+          </div>
+          <div class="submit eng">
+            <input type="submit" value="SEND">
+          </div>
+          <div class="submit jpn">
+            <input type="submit" value="送信する">
+          </div>
+        </form>
+      </div>
+      <div class="black-card">
+        <div class="info-heading">
+          <span class="eng">CONTACT INFO</span>
+          <span class="jpn">連絡先情報</span>
+        </div>
+        <div class="info-email">
+          <a href="mailto:info@sakakibarabmx.com.au">
+            info@sakakibarabmx.com.au</a>
+        </div>
+        <div class="info-container">
+          <div class="saya-card">
+            <div class="circle-img">
+              <img src="/images/sayacircle.png" alt="">
             </div>
-            <div class="card">
-            <img src="/images/merch2.webp" alt="">
+
+            <p class="name"><span class="eng">Saya</span><span class="jpn">サヤ</span></p>
+            <div class="socials">
+              <a href="https://www.facebook.com/sayasakakibarabmx" target="popup"><i
+                  class="fa-brands fa-facebook"></i></a>
+              <a href="https://www.instagram.com/sayasakakibara/" target="popup"><i
+                  class="fa-brands fa-instagram"></i></a>
             </div>
-            <div class="card">
-            <img src="/images/merch3.jpg" alt="">
-            </div>
+          </div>
+
         </div>
-        <div class="merch-button">
-            <a href="https://sakakibarabmx.com/collections/all" target="popup"><button><span class="eng">Shop Now</span>
-                <span class="jpn">今すぐショッピングする</span></button></a>
-        </div>
-    </section>
-    <section class="contact">
-        <div class="form-container">
-            <div class="grey-card">
-                <div class="form-heading"><span class="eng">SEND ME A MESSAGE</span><span class="jpn">メッセージをお送りください。</span></div>
-                <form id="contact-form" name="Contact" method="POST" netlify-honeypot="bot-field" data-netlify="true" onsubmit="submitForm(event)" >
-                    <input type="hidden" name="form-name" value="Contact">
-                         <p class="hidden">
-                        <label>Don’t fill this out if you’re human: <input name="bot-field" /></label>
-                        </p>
-                    <div class="form-group">
-                      <input placeholder="Name" type="text" id="name" name="name" required>
-                    </div>
-                    <div class="form-group">
-                      <input type="email" id="email" name="email" placeholder="Email Address" required>
-                    </div>
-                    <div class="form-group">
-                      <input type="tel" id="phone" name="phone" placeholder="Phone Number" required>
-                    </div>
-                    <div class="form-group">
-                      <textarea id="message" name="message" placeholder="Write your message here..."></textarea>
-                    </div>
-                    <div class="submit eng">
-                      <input type="submit" value="SEND">
-                    </div>
-                    <div class="submit jpn">
-                        <input type="submit" value="送信する">
-                    </div>
-                  </form>  
-                </div>
-                <div class="black-card">
-                    <div class="info-heading">
-                        <span class="eng">CONTACT INFO</span>
-                        <span class="jpn">連絡先情報</span>
-                    </div>
-                    <div class="info-email">
-                        <a href="mailto:info@sakakibarabmx.com.au">
-                        info@sakakibarabmx.com.au</a>
-                    </div>
-                    <div class="info-container">
-                        <div class="saya-card">
-                            <div class="circle-img">
-                            <img src="/images/sayacircle.png" alt="">
-                            </div>
-                              
-                            <p class="name"><span class="eng">Saya</span><span class="jpn">サヤ</span></p>
-                            <div class="socials">
-                                <a href="https://www.facebook.com/sayasakakibarabmx" target="popup"><i class="fa-brands fa-facebook"></i></a>
-                                <a href="https://www.instagram.com/sayasakakibara/" target="popup"><i class="fa-brands fa-instagram"></i></a>
-                            </div>
-                        </div>
-                        
-                    </div>
-                </div>
-        </div>
-    </section>
-    <section class="footer" id="footer">
-        <div class="copyright">
-            <span class="eng">© SK Sakakibara 2023 | All Rights Reserved</span><span class="jpn">© SK Sakakibara 2023 | 全著作権所有</span>
-        </div>
-        <div class="jnds">
-        <a href="https://jndswebdesign.com"><span class="eng">Website by | JNDS Web Design</span></a> 
-         <a href="https://jndswebdesign.com"><span class="jpn">ウェブサイトデザイン： JNDS Web Design</span></a> 
-             
-        </div>
-    </section>
+      </div>
+    </div>
+  </section>
+  <section class="footer" id="footer">
+    <div class="copyright">
+      <span class="eng">© SK Sakakibara 2024 | All Rights Reserved</span><span class="jpn">© SK Sakakibara 2024 |
+        全著作権所有</span>
+    </div>
+    <div class="jnds">
+      <a href="https://jndswebdesign.com"><span class="eng">Website by | JNDS Web Design</span></a>
+      <a href="https://jndswebdesign.com"><span class="jpn">ウェブサイトデザイン： JNDS Web Design</span></a>
+
+    </div>
+  </section>
 </body>
-    <script src="/script.js"></script>
-    <script>
-    function toggleMenu() {
-      const menuItems = document.querySelector('.menu-items');
-      menuItems.classList.toggle('show');
-    }
-    </script>
+<script src="/script.js"></script>
+<script>
+  function toggleMenu() {
+    const menuItems = document.querySelector('.menu-items');
+    menuItems.classList.toggle('show');
+  }
+</script>
+
 </html>

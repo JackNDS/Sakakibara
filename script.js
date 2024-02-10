@@ -1,4 +1,33 @@
 document.addEventListener('DOMContentLoaded', function() {
+  const timelineItems = document.querySelectorAll('.timeline-item');
+
+  function checkTimelineItems() {
+    timelineItems.forEach(function(item) {
+      if (isElementInViewport(item)) {
+        item.classList.add('in-view');
+      }
+    });
+  }
+
+  function isElementInViewport(el) {
+    const rect = el.getBoundingClientRect();
+    return (
+      rect.top >= 0 &&
+      rect.left >= 0 &&
+      rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+      rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+    );
+  }
+
+  window.addEventListener('scroll', checkTimelineItems);
+  checkTimelineItems();
+
+  // Your other code snippets...
+});
+
+
+
+document.addEventListener('DOMContentLoaded', function() {
   console.log('DOM fully loaded and parsed');
   
   const hamburger = document.querySelector('.hamburger');
@@ -64,6 +93,6 @@ document.addEventListener('DOMContentLoaded', function() {
   }
 
  
-  
 
+  
   

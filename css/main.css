@@ -803,10 +803,10 @@ video {
   height: 100%;
   width: 100%;
   background: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-    url('/images/kaisaya.jpg');
-  -o-object-fit: contain;
-     object-fit: contain;
-  background-position: top;
+    url('/images/sayakai.webp');
+  -o-object-fit: fill;
+     object-fit: fill;
+  background-position: center;
   position: absolute;
   top: 0;
   left: 0;
@@ -898,10 +898,10 @@ video {
   padding: 60px 120px;
   background: linear-gradient(
       to right,
-      rgba(44, 44, 44, 0.8),
-      rgba(44, 44, 44, 0.8)
+      rgba(00, 00, 00, 0.65),
+      rgba(00, 00, 00, 0.65)
     ),
-    url('/images/saya2.jpg');
+    url('/images/background1.jpg');
   background-size: cover;
   background-position: center;
 }
@@ -1021,6 +1021,27 @@ video {
   text-align: center;
   margin-top: 15px;
   letter-spacing: 1.1px;
+}
+
+/* Follow section */
+
+.follow-section {
+  position: absolute;
+  bottom: 0;
+  right: 40px;
+  z-index: 12;
+}
+
+.follow-container {
+  display: flex;
+  margin: 0;
+  padding: 40px;
+}
+
+.follow-text {
+  font-size: 18px;
+  color: white;
+  font-weight: 500;
 }
 
 /* Kai Showcase */
@@ -1282,12 +1303,102 @@ video {
   justify-content: space-around;
 }
 
+.socials-container i {
+  color: #fff;
+  font-size: 30px;
+  margin-left: 10px;
+}
+
 .footer {
   font-family: 'matter-light';
   color: #7e7e7e;
   display: flex;
   justify-content: space-around;
   margin-bottom: 20px;
+}
+
+.timeline {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+.timeline-item {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+  margin-bottom: 0px;
+}
+
+.timeline-item.in-view {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.content {
+  background-color: #000;
+  padding: 20px;
+  border-radius: 5px;
+  height: auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  text-align: left;
+}
+
+.content img {
+  height: 300px;
+  border-radius: 10000px;
+}
+
+.content2 img {
+  height: 300px;
+  border-radius: 10000px;
+}
+
+.content2 {
+  background-color: #000;
+  padding: 20px;
+  border-radius: 5px;
+  height: auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: right;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.content h2 {
+  margin-top: 0;
+  color: #fff;
+  font-size: 25px;
+  font-family: 'Matter-Semibold';
+}
+
+.content p {
+  margin-bottom: 0;
+  color: #fff;
+}
+
+.content2 h2 {
+  margin-top: 0;
+  color: #fff;
+  font-size: 25px;
+  font-family: 'Matter-Semibold';
+}
+
+.content2 p {
+  margin-bottom: 0;
+  color: #fff;
+}
+
+.timeline-section {
+  height: auto;
+  background: #000;
 }
 
 /* Mobile devices */
@@ -1299,6 +1410,29 @@ video {
 
   .fbvideo {
     height: 200px;
+  }
+
+  .timeline {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  .content img {
+    height: 170px;
+  }
+
+  .content2 img {
+    height: 170px;
+  }
+
+  .content2 h2 {
+    font-size: 18px;
+  }
+
+  .content h2 {
+    font-size: 18px;
   }
 
   .main-tile {
@@ -1486,6 +1620,13 @@ video {
 @media screen and (max-width: 420px) {
   .heading {
     font-size: 35px;
+  }
+
+  .timeline {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
 
   .sub-heading {
